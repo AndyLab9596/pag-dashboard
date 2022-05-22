@@ -1,0 +1,130 @@
+@import '../../../styles';
+button {
+  &.hover {
+    cursor: pointer !important;
+  }
+}
+// -- vars
+$bg-color: #34495e;
+$bg-color-reminder: #fafbfc;
+$color-blue: #2000ff;
+$default-size: 10em;
+$label-font-size: 22px;
+$label-font-size-redo: $default-size * 4;
+// -- mixins
+// @mixin size($width, $height) {
+//   height: $height;
+//   width: $width;
+// }
+
+@keyframes start-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes half-rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+
+/*-----------------------------------------
+ Chart
+-----------------------------------------*/
+.chart {
+  text-align: center;
+  margin-top: -31%;
+  border-color: rgb(0, 0, 128);
+}
+
+.pieChart {
+  transform: rotate(135deg);
+  transform-origin: center;
+}
+
+.pieChartLabel {
+  transform-origin: center;
+  transform: rotateZ(226deg);
+}
+
+.BarChart {
+  transform: translate(-50%, -50%);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-size: 12px;
+}
+
+.CartesianGrid {
+  color: red;
+}
+/*-----------------------------------------
+ Contributor
+-----------------------------------------*/
+.contributor {
+  border: 1px solid #c5dbea;
+  color: #3f536e;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid rgba(183, 210, 229, 0.8);
+  box-shadow: rgb(126 149 167) 0px -1px 0px 0px inset;
+
+  &__List {
+    height: 238px;
+    overflow-y: scroll;
+  }
+  &:hover {
+    cursor: auto;
+  }
+}
+
+.contribution__FormChart {
+  height: 318px;
+}
+/*-----------------------------------------
+ Button
+-----------------------------------------*/
+.FinalizeBtn,
+.viewBtn {
+  background-color: #000080;
+  color: white;
+  width: 120px;
+  height: 36px;
+  border-color: transparent;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .dashboard-table {
+    .dashboard-table-title {
+      font-size: 0.85em;
+    }
+  }
+
+  .content {
+    .content-right {
+      position: relative;
+      left: -4%;
+    }
+  }
+
+  .card {
+    width: calc(100% / 3);
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .dashboard-table {
+    .dashboard-table-title {
+      font-size: 0.8em;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .dashboard-table-footer {
+    padding: 20px 5px;
+  }
+}

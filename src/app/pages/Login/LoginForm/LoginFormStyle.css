@@ -1,0 +1,15 @@
+.form {
+  width: 25.625em;
+  padding-bottom: 45px;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.form span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #2c405a;
+}
+/*# sourceMappingURL=LoginFormStyle.css.map */

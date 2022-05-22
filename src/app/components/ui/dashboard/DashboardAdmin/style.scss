@@ -1,0 +1,34 @@
+.containerDashboard {
+  width: 100%;
+}
+
+.content-dashboard {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  height: 1232px;
+  .content-dashboard-left {
+    width: 75%;
+    &__common {
+      width: 100%;
+    }
+    &__card {
+      border-radius: 4px;
+      border: 1px solid rgba(183, 210, 229, 0.8);
+      box-shadow: inset 0 -1px 0 0 #7e95a7;
+    }
+  }
+  .content-dashboard-right {
+    width: 25%;
+    padding: 8px;
+    &__card {
+      border-radius: 4px;
+      border: 1px solid rgba(183, 210, 229, 0.8);
+      box-shadow: inset 0 -1px 0 0 #7e95a7;
+    }
+  }
+}
+
+// .Evaluation {
+//   width:75%
+// }

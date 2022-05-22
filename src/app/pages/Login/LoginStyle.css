@@ -1,0 +1,73 @@
+.login-wrapper {
+  background-image: -webkit-gradient(linear, left top, right top, from(#cc0000), to(#660000));
+  background-image: linear-gradient(to right, #cc0000, #660000);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.login-wrapper .sub-logo {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  z-index: -9999;
+}
+
+.login-wrapper .login-container {
+  z-index: 9999;
+}
+
+.login-wrapper .login-container .login-title .login-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 6em;
+  margin-bottom: 1em;
+}
+
+.login-wrapper .login-container .login-title .login-logo img {
+  width: 100%;
+}
+
+.login-wrapper .login-container .login-title span {
+  color: #ffffff;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+  line-height: 50px;
+}
+
+.login-wrapper .login-component {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 1em 0em;
+}
+/*# sourceMappingURL=LoginStyle.css.map */

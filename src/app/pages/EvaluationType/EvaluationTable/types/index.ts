@@ -1,0 +1,2 @@
+export const EVALUATIONS_TYPE_ALL = 300;
+export const EVALUATIONS_TYPE_PAGE_SIZE = 20;

@@ -1,0 +1,123 @@
+.nav-toggle-menu {
+  display: none;
+  &:checked {
+    ~ {
+      *.left-nav-menu {
+        display: block;
+        width: 58px;
+      }
+    }
+  }
+}
+
+.left-nav-menu {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 53px);
+  background-image: linear-gradient(to bottom, #cc0000, #660000);
+  border-right: 1px solid #d8e5ee;
+  font-family: 'Heebo', sans-serif;
+}
+.left-nav-menu-modal,
+.left-nav-menu-modal--not-active {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(63, 83, 110);
+  padding: 1em;
+  background-color: white;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: initial;
+  &:hover {
+    cursor: pointer;
+    color: #cc0000;
+    background-color: #ecf5fd;
+  }
+}
+
+.left-nav-menu-modal {
+  &.active {
+    background-color: #ecf5fd;
+    color: #cc0000;
+  }
+}
+
+.active-role {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+.user-guide-row {
+  display: flex;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  .user-guide {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    &:hover {
+      cursor: pointer;
+      color: #cc0000;
+    }
+  }
+  .user-guide-upload {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    .btn-upload-guide {
+      transform: rotate(180deg);
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+.row-menu {
+  display: flex;
+  overflow: hidden;
+}
+
+.col-logo {
+  min-width: 58px;
+  text-align: center;
+  color: #d86060;
+  padding-top: 13px;
+  text-align: -webkit-center;
+  font-size: 16px;
+}
+
+.col-logo.active {
+  color: white;
+}
+
+.col-menu {
+  min-width: 152px;
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  padding: 13px 0 0 13px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(92, 92, 92);
+  letter-spacing: 1.7px;
+  background-color: white;
+  .title {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    letter-spacing: 1.7px;
+  }
+}
+
+.col-menu-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(92, 92, 92);
+  letter-spacing: 1.7px;
+  background-color: white;
+}

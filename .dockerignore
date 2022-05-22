@@ -1,0 +1,6 @@
+.git
+.husky
+.vscode
+internals
+build
+node_modules

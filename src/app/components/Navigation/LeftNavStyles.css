@@ -1,0 +1,156 @@
+.nav-toggle-menu {
+  display: none;
+}
+
+.nav-toggle-menu:checked ~ *.left-nav-menu {
+  display: block;
+  width: 58px;
+}
+
+.left-nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: calc(100vh - 53px);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#660000));
+  background-image: linear-gradient(to bottom, #cc0000, #660000);
+  border-right: 1px solid #d8e5ee;
+  font-family: 'Heebo', sans-serif;
+}
+
+.left-nav-menu-modal {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #3f536e;
+  padding: 1em;
+  background-color: white;
+  margin-right: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  letter-spacing: initial;
+}
+
+.left-nav-menu-modal:hover {
+  cursor: pointer;
+  color: #cc0000;
+  background-color: #ecf5fd;
+}
+
+.left-nav-menu-modal.active {
+  background-color: #ecf5fd;
+  color: #cc0000;
+}
+
+.active-role {
+  color: #cc0000;
+  text-decoration: underline;
+}
+
+.user-guide-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+}
+
+.user-guide-row .user-guide {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+
+.user-guide-row .user-guide:hover {
+  cursor: pointer;
+  color: #cc0000;
+}
+
+.user-guide-row .user-guide-upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.user-guide-row .user-guide-upload .btn-upload-guide {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  width: 15px;
+  height: 15px;
+}
+
+.row-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.col-logo {
+  min-width: 58px;
+  text-align: center;
+  color: #d86060;
+  padding-top: 13px;
+  text-align: -webkit-center;
+  font-size: 16px;
+}
+
+.col-logo.active {
+  color: white;
+}
+
+.col-menu {
+  min-width: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 152px;
+  padding: 13px 0 0 13px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #5c5c5c;
+  letter-spacing: 1.7px;
+  background-color: white;
+}
+
+.col-menu .title {
+  font-size: 11px;
+  font-weight: 500;
+  color: #5c5c5c;
+  letter-spacing: 1.7px;
+}
+
+.col-menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 11px;
+  font-weight: 500;
+  color: #5c5c5c;
+  letter-spacing: 1.7px;
+  background-color: white;
+}
+/*# sourceMappingURL=LeftNavStyles.css.map */

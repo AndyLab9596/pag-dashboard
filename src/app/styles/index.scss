@@ -1,0 +1,65 @@
+// Set your brand colors
+$pag-bluer: #000080;
+$pag-blue: #0067ac;
+$pag-green: #00807f;
+$pag-red: #cc0000;
+$pag-black: #3f536e;
+$pag-black-light: #373535;
+$pag-black-lighter: #797a7d;
+$pag-black-strong: #000000;
+$white: #ffffff;
+
+// Update sizes
+
+$size-1: 23px;
+$size-2: 17px;
+$size-3: 15px;
+$size-4: 13px;
+$size-5: 11px;
+$size-6: 9px;
+$size-7: 6px;
+
+$family-sans-serif: 'Heebo', sans-serif;
+$primary: $pag-bluer;
+$secondary: rgba($pag-green, 0.5);
+$warning: $pag-red;
+$black: $pag-black;
+$link: $pag-red;
+$text: $pag-black-light;
+$text-light: $pag-black-lighter;
+$text-strong: $pag-black-strong;
+
+$title-color: $pag-black-light;
+
+// Update button properties
+
+$button-color: $white;
+$button-background-color: $primary;
+$button-text-color: $white;
+$button-hover-color: rgba($white, 0.8);
+$button-focus-border-color: transparent;
+$button-focus-color: none;
+$button-focus-box-shadow-color: transparent;
+$button-active-color: none;
+
+$footer-background-color: $secondary;
+$footer-height: auto;
+$footer-padding: 0;
+$footer-text-color: #888;
+
+// Update body properties
+
+$body-background-color: $white;
+$body-weight: 400;
+$body-size: $size-4;
+$control-border-width: 2px;
+
+// Update input properties
+
+$input-hover-border-color: transparent;
+$input-focus-border-color: transparent;
+$input-border-color: transparent;
+$input-focus-box-shadow-size: none;
+$input-shadow: none;
+
+@import './styles.scss';
